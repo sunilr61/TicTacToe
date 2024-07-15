@@ -6,7 +6,7 @@ import TicTacToeScaler.model.GameState;
 import TicTacToeScaler.model.Player;
 
 import java.util.List;
-
+// This is game controller class
 public class GameController {
     public Game startGame(int dimension, List<Player> players, List<WinningStrategies> winningStrategies){
         return Game
